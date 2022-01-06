@@ -29,9 +29,7 @@ library SafeMath {
 
         return c;
     }
-     function sub(uint256 a, uint256 b) internal pure returns (uint256) {
-        return a - b;
-    }
+    
 
     /**
      * @dev Returns the subtraction of two unsigned integers, reverting on
