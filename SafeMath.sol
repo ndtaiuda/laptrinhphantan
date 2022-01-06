@@ -40,8 +40,9 @@ library SafeMath {
      * Requirements:
      * - Subtraction cannot overflow.
      */
-    function sub(uint256 a, uint256 b) internal pure returns (uint256) {
-        return sub(a, b, "SafeMath: subtraction overflow");
+   
+     function sub(uint256 a, uint256 b) internal pure returns (uint256) {
+        return a - b;
     }
 
     /**
